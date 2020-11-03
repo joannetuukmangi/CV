@@ -7,7 +7,7 @@ div.nav{
     top: 0px;
     z-index: 1;
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
 }
 body{
     background-color: #393e46;
@@ -82,10 +82,10 @@ em{
     }
 }
 
-.button {
-  background-color:rgb(65, 65, 65);
+a.button {
+  background-color:grey;
   border: none;
-  color: rgb(255, 0, 0);
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -94,4 +94,10 @@ em{
   margin: 4px 2px;
   cursor: pointer;
   border: honeydew;
+}
+@media all and (max-width:30em){
+    a.button{
+        display:block;
+        margin: 0.4em auto;
+    }
 }
